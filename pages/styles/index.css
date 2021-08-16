@@ -172,6 +172,20 @@ a {
     margin: 40px 10px 10px 10%;
 }
 
+.button-main{
+  margin: 30px ;
+  text-align: center;
+}
+
+button{
+  background-color: #4a1c1c;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 img {
   border-radius: 20px;
 }
