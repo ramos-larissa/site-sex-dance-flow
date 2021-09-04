@@ -1,15 +1,15 @@
 .site-footer
 {
-  background-color:#26272b;
+  background-color:#4a1c1c;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:#bbb;
 }
 .site-footer hr
 {
   border-top-color:#bbb;
-  opacity:0.5
+  opacity:0.5;
 }
 .site-footer hr.small
 {
