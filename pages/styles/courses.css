@@ -1,3 +1,33 @@
+#body{
+ height: auto;
+ background-color:#161515;
+}
+
+#header{
+   margin: 0;
+   display: flex;
+   background-color: rgba(0, 0, 0, 0.678);
+   align-items: center;
+   
+}
+
+.title-header{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   
+}
+.banner{
+   background-color: #161515;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.banner img{
+   height: 100px;
+   margin-top: 40px;
+   margin-bottom: 100px;
+}
 #list{
     font-family: "Roboto", sans-serif;
     margin: 0;
@@ -18,14 +48,11 @@
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color: #4a1c1c;
+    background-color: rgba(255, 255, 255, 0.144);
     width: 800px;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
-
-#card-course a{
-    text-decoration: none;
- }
 
 #card-course img{
    margin: 10px;
@@ -34,12 +61,24 @@
 }
 
 #card-course p{
-    padding-left: 30px;
+    padding-left: 20px;
     padding-right: 30px;
     padding-top: 10px;
     font-size: 18px;
+    color: whitesmoke;
  }
 
  #card-course h2{
     margin-top: 10px;
+    color: whitesmoke;
  }
+
+ .threed:hover
+{
+        box-shadow:
+                3px 3px #0000008e,
+                6px 6px #0000008e,
+                9px 9px #0000008e;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
