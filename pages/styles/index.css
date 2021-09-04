@@ -4,7 +4,7 @@ sunset #985e6d
 evening #192231 */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   background-color: #161515;
   margin: 0;
   width: 100%;
@@ -127,56 +127,6 @@ a {
   );
 }
 
-/* .footer {
-  background-color: #4a1c1c;
-  color: white;
-  display: flex;
-  margin-bottom: 0;
-  height: auto;
-}
-.footer-item {
-  margin: 40px 10px 10px 10%;
-}
-
-.button-main {
-  margin: 30px;
-  text-align: center;
-}
-
-
-h1,
-p,
-h4,
-h3,
-h2 {
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.footer-item a {
-  text-decoration: none;
-} */
-/* icon edit */
-
-/* .icon {
-  height: 40px;
-  width: 40px;
-}
-
-.icon img {
-  height: 100%;
-  width: 100%;
-  display: inline-flex;
-}
-
-.icon:hover {
-  opacity: 0.5;
-}
-
-.icon a {
-  text-decoration: none;
-} */
-
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 svg {
@@ -283,7 +233,7 @@ svg#curve {
 }
 
 .info {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   text-align: center;
   background-color: #4a1c1c;
