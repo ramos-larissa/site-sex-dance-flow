@@ -324,3 +324,10 @@ svg#curve {
   text-align: center;
   margin-bottom: 50px;
 }
+
+.btn-more:hover{
+  border-bottom: 12px solid rgba(0, 0, 0, 0);
+  border-top: 8px solid rgba(0, 0, 0, 0);
+  border-right: 4px solid rgba(0, 0, 0, 0);
+  border-radius: 50px;
+}
