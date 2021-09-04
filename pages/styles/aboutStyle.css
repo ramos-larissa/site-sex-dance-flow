@@ -1,13 +1,19 @@
 /* page about */
+#body {
+  margin: 0;
+  width: 100%;
+  background-color:#161515;
+}
 
 h1,
 h2,
 h3,
 p {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
 }
 /* HEADER-BAR */
-#header{
+#header {
   margin: 0;
   display: flex;
   background-color: rgba(0, 0, 0, 0.678);
@@ -15,39 +21,39 @@ p {
   width: 100%;
 }
 
-.title-header{
+.title-header {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.title-header h1,h2{
+.title-header h1,
+h2 {
   padding-left: 80px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 25px;
   text-align: center;
 }
 /* _________________________________________________ */
-.headerAbout{
+.headerAbout {
   background-color: black;
   display: flex;
   align-items: center;
   width: 100%;
 }
 
-.headerAbout h3{
+.headerAbout h3 {
   font-size: 20px;
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.titleHeader{
+.titleHeader {
   width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
 }
-
 
 .divImgAbout {
   align-content: center;
@@ -60,15 +66,15 @@ p {
   margin-bottom: 50px;
 }
 
-.imgMe{
-width: 40%;
-align-items: flex-start;
-text-align: left;
-float: left;
-padding-left: 5%;
-padding-right: 10px;
-padding-top: 10px;
-border-radius: 0px;
+.imgMe {
+  width: 40%;
+  align-items: flex-start;
+  text-align: left;
+  float: left;
+  padding-left: 5%;
+  padding-right: 10px;
+  padding-top: 10px;
+  border-radius: 0px;
 }
 
 .main {
