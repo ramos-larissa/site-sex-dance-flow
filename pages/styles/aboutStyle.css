@@ -8,7 +8,8 @@
 h1,
 h2,
 h3,
-p {
+p,
+span{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
 }
@@ -102,8 +103,65 @@ h2 {
 .aboutText {
   max-width: 90%;
   margin-left: 5%;
+  margin-right: 5%;
 }
 
+.aboutTextDown {
+  max-width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+
+#downTownBody{
+  width: 100%;
+  text-align: center;
+}
+
+.third {
+  margin: 20px;
+  width: 200px;
+  border-color: #4a1c1c;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #4a1c1c inset, 0 0 0 0 #4a1c1c;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #4a1c1c inset, 0 0 10px 4px #4a1c1c;
+}
+
+.table-red{
+  background-color:#4a1c1c;
+  color: white;
+}
+
+.divSchedule{
+  margin-bottom: 50px;
+}
+.margin-card{
+  margin-top: 30px;
+}
+
+.card-aulas{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.coluna{
+  width: 50%;
+  padding-left: 100px;
+}
+
+.title{
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.center-cards{
+  display: flex;
+  justify-content: center;
+}
 /* @media only screen and (max-width: 800px) {
     * For tablets: *
     .main {
